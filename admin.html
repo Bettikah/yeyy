@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+  <script defer src="admin.js"></script>
+</head>
+<body>
+  <h2>Login Attempts (last 1 hour)</h2>
+  <table border="1" cellpadding="8">
+    <thead>
+      <tr><th>Username</th><th>Password</th><th>Time</th></tr>
+    </thead>
+    <tbody id="attemptsTable"></tbody>
+  </table>
+</body>
+</html>
